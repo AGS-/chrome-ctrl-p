@@ -1,0 +1,11 @@
+{
+  "name": "chrome-ctrl-p",
+  "version": "1.0.0",
+  "description": "Chrome plugin which provides browser wide search capabilities",
+  "main": "index.js",
+  "contributors": [
+		{ "name": "Angel Gomez" },
+		{ "name": "Erick Romero" }
+	],
+	"license": "MIT"
+}
