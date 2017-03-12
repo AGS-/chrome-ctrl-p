@@ -13,7 +13,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack && cp icon.png dist/ && cp manifest.json dist/"
   },
   "dependencies": {
     "path": "^0.12.7",
@@ -29,6 +29,7 @@
     "eslint": "^3.17.1",
     "eslint-plugin-babel": "^4.1.1",
     "eslint-plugin-react": "^6.10.0",
+    "file-loader": "^0.10.1",
     "html-webpack-plugin": "^2.28.0",
     "webpack": "^2.2.1"
   }
