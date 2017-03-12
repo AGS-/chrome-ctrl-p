@@ -1,0 +1,7 @@
+*.swp
+*~
+.*.haste_cache.*
+npm-debug.log
+
+dist/
+node_modules/

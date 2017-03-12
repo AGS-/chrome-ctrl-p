@@ -1,0 +1,27 @@
+{
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "globals": {
+    "console": true,
+    "$": true,
+    "_": true,
+    "moment": true,
+    "describe": true,
+    "beforeEach": true,
+    "module": true,
+    "inject": true,
+    "it": true,
+    "expect": true,
+    "browser": true,
+    "element": true,
+    "by": true,
+  },
+  "extends": "airbnb-base",
+  "rules": {
+    "quotes": [2, "single"],
+    "strict": 0,
+    "no-underscore-dangle": 0,
+  }
+}
