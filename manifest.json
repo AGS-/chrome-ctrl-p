@@ -1,5 +1,5 @@
 {
-  "manifest_version": 1,
+  "manifest_version": 2,
 
   "name": "chrome-ctrl-p",
   "description": "This extension searches through your open tabs and matches strings with the content",
