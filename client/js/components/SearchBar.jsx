@@ -1,10 +1,11 @@
-import React from 'react';   
+import React, { PropTypes } from 'react';
 
-export default class SearchBar extends React.Component {
-  render() {
-    return (
-      <input type="text" />
-      <ul></ul>
-    );
-  }
+export default function SearchBar({ handleOnChange }) {
+  return (
+    <input onChange={handleOnChange} type="text" />
+  );
 }
+
+SearchBar.propTypes = {
+  handleOnChange: PropTypes.func,
+};
